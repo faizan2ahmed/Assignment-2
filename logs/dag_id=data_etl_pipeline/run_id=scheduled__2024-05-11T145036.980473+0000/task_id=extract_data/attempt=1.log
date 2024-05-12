@@ -1,0 +1,24 @@
+[2024-05-12T14:50:52.405+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: data_etl_pipeline.extract_data scheduled__2024-05-11T14:50:36.980473+00:00 [queued]>
+[2024-05-12T14:50:52.447+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: data_etl_pipeline.extract_data scheduled__2024-05-11T14:50:36.980473+00:00 [queued]>
+[2024-05-12T14:50:52.448+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-12T14:50:52.449+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2024-05-12T14:50:52.451+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-12T14:50:52.519+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): extract_data> on 2024-05-11 14:50:36.980473+00:00
+[2024-05-12T14:50:52.533+0000] {standard_task_runner.py:55} INFO - Started process 1424 to run task
+[2024-05-12T14:50:52.546+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'data_etl_pipeline', 'extract_data', 'scheduled__2024-05-11T14:50:36.980473+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/dag_pipeline.py', '--cfg-path', '/tmp/tmpg41nuhi_']
+[2024-05-12T14:50:52.548+0000] {standard_task_runner.py:83} INFO - Job 15: Subtask extract_data
+[2024-05-12T14:50:52.788+0000] {task_command.py:376} INFO - Running <TaskInstance: data_etl_pipeline.extract_data scheduled__2024-05-11T14:50:36.980473+00:00 [running]> on host 9137fdbbf522
+[2024-05-12T14:50:53.107+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_etl_pipeline
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-05-11T14:50:36.980473+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-05-11T14:50:36.980473+00:00
+[2024-05-12T14:51:04.261+0000] {logging_mixin.py:120} INFO - Data has been written to 'extracted_data.json'
+[2024-05-12T14:51:04.269+0000] {python.py:177} INFO - Done. Returned value was: None
+[2024-05-12T14:51:04.352+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=data_etl_pipeline, task_id=extract_data, execution_date=20240511T145036, start_date=20240512T145052, end_date=20240512T145104
+[2024-05-12T14:51:04.577+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2024-05-12T14:51:04.759+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

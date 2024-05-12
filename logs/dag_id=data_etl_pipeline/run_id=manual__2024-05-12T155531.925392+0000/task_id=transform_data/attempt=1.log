@@ -1,0 +1,599 @@
+[2024-05-12T15:56:20.529+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: data_etl_pipeline.transform_data manual__2024-05-12T15:55:31.925392+00:00 [queued]>
+[2024-05-12T15:56:20.586+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: data_etl_pipeline.transform_data manual__2024-05-12T15:55:31.925392+00:00 [queued]>
+[2024-05-12T15:56:20.588+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-12T15:56:20.590+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2024-05-12T15:56:20.591+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-12T15:56:20.703+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): transform_data> on 2024-05-12 15:55:31.925392+00:00
+[2024-05-12T15:56:20.731+0000] {standard_task_runner.py:55} INFO - Started process 3758 to run task
+[2024-05-12T15:56:20.747+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'data_etl_pipeline', 'transform_data', 'manual__2024-05-12T15:55:31.925392+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/dag_pipeline.py', '--cfg-path', '/tmp/tmpafdh635b']
+[2024-05-12T15:56:20.753+0000] {standard_task_runner.py:83} INFO - Job 22: Subtask transform_data
+[2024-05-12T15:56:21.057+0000] {task_command.py:376} INFO - Running <TaskInstance: data_etl_pipeline.transform_data manual__2024-05-12T15:55:31.925392+00:00 [running]> on host 9137fdbbf522
+[2024-05-12T15:56:21.540+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_etl_pipeline
+AIRFLOW_CTX_TASK_ID=transform_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-05-12T15:55:31.925392+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-05-12T15:55:31.925392+00:00
+[2024-05-12T15:56:21.578+0000] {logging_mixin.py:120} INFO - Title: Russia blames Ukraine after blast destroys apartments
+Description: At least two people are said to have been killed after a section of a 10-storey block collapsed in Belgorod.
+Link: https://www.bbc.com/news/world-europe-68998913
+[2024-05-12T15:56:21.581+0000] {logging_mixin.py:120} INFO - Title: UK arms ban for Israel would help Hamas - Cameron
+Description: Foreign Secretary David Cameron tells the BBC the UK should focus on getting humanitarian aid into Gaza.
+Link: https://www.bbc.com/news/uk-politics-68999212
+[2024-05-12T15:56:21.582+0000] {logging_mixin.py:120} INFO - Title: Russia blames Ukraine after blast destroys apartments
+Description: At least two people are said to have been killed after a section of a 10-storey block collapsed in Belgorod.
+Link: https://www.bbc.com/news/world-europe-68998913
+[2024-05-12T15:56:21.584+0000] {logging_mixin.py:120} INFO - Title: UK arms ban for Israel would help Hamas - Cameron
+Description: Foreign Secretary David Cameron tells the BBC the UK should focus on getting humanitarian aid into Gaza.
+Link: https://www.bbc.com/news/uk-politics-68999212
+[2024-05-12T15:56:21.590+0000] {logging_mixin.py:120} INFO - Title: The Russians simply walked in, Ukrainian troops in Kharkiv tell BBC
+Description: The BBC's Jonathan Beale meets front-line soldiers battling Russia's new incursion in north-east Ukraine.
+Link: https://www.bbc.com/news/articles/c72p0xx410xo
+[2024-05-12T15:56:21.592+0000] {logging_mixin.py:120} INFO - Title: Virginia university students walk out of graduation event
+Description: Dozens of VCU grads left during Gov Glenn Youngkin's speech, in part over his comments on campus protests.
+Link: https://www.bbc.com/news/world-us-canada-68996066
+[2024-05-12T15:56:21.593+0000] {logging_mixin.py:120} INFO - Title: Tourists, history seekers and a puppet: Meet the Trump trial devotees
+Description: Dozens stand in line in the early morning for a glimpse at the first criminal trial of a former US president.
+Link: https://www.bbc.com/news/world-us-canada-68991796
+[2024-05-12T15:56:21.594+0000] {logging_mixin.py:120} INFO - Title: Cult movie director Roger Corman dies aged 98
+Description: Jack Nicholson, Charles Bronson and Robert De Niro were some of the actors whose careers he helped develop.
+Link: https://www.bbc.com/news/entertainment-arts-17127556
+[2024-05-12T15:56:21.597+0000] {logging_mixin.py:120} INFO - Title: How Kendrick Lamar and Drake changed rap beefs forever
+Description: Rapid-fire releases and fast pace of modern life elevate diss war to levels unparalleled in hip-hop history.
+Link: https://www.bbc.com/news/world-us-canada-68993672
+[2024-05-12T15:56:21.598+0000] {logging_mixin.py:120} INFO - Title: China's grand ambition for space
+Description: China's Chang'e-6 mission is intended to bring back lunar samples but is also a stepping stone to much more ambitious space exploration.
+Link: https://www.bbc.com/future/article/20240510-change-6-is-just-the-tip-of-chinas-space-ambitions
+[2024-05-12T15:56:21.599+0000] {logging_mixin.py:120} INFO - Title: In pictures: Top moments from Eurovision Song Contest 2024
+Description: Skimpy costumes, wacky performances and furious flag-waving... it can only be Eurovision.
+Link: https://www.bbc.com/news/articles/cv2dy69jm6no
+[2024-05-12T15:56:21.600+0000] {logging_mixin.py:120} INFO - Title: The man who took on the coal industry to save a forest - and won
+Description: Alok Shukla has spent years fighting to protect a key Indian forest from mining companies.
+Link: https://www.bbc.com/news/articles/cyxepvdewkno
+[2024-05-12T15:56:21.602+0000] {logging_mixin.py:120} INFO - Title: The escaped dissident still pursued decades on by China
+Description: Yan Xiong escaped from China in 1992, but he and other dissidents are still being targeted by Beijing.
+Link: https://www.bbc.com/news/articles/crgy7xypwj8o
+[2024-05-12T15:56:21.614+0000] {logging_mixin.py:120} INFO - Title: Harry and Meghan visit school on last day in Nigeria
+Description: Prince Harry played basketball with a group of school students in Nigeria's most populated city.
+Link: https://www.bbc.com/news/world-africa-68999815
+[2024-05-12T15:56:21.615+0000] {logging_mixin.py:120} INFO - Title: India court grants bail to jailed opposition leader
+Description: The Delhi chief minister was arrested in March in a corruption case - he denies the allegations.
+Link: https://www.bbc.com/news/world-asia-india-68767574
+[2024-05-12T15:56:21.616+0000] {logging_mixin.py:120} INFO - Title: Domestic tourism soars in China but foreigners stay away
+Description: Foreign visitor numbers are sharply down amid concerns about the political environment.
+Link: https://www.bbc.com/news/world-asia-china-68982645
+[2024-05-12T15:56:21.617+0000] {logging_mixin.py:120} INFO - Title: The escaped dissident still pursued decades on by China
+Description: Yan Xiong escaped from China in 1992, but he and other dissidents are still being targeted by Beijing.
+Link: https://www.bbc.com/news/articles/crgy7xypwj8o
+[2024-05-12T15:56:21.618+0000] {logging_mixin.py:120} INFO - Title: Man who received first pig kidney transplant dies
+Description: The US hospital which carried out the operation said Rick Slayman's death was not a result of the transplant.
+Link: https://www.bbc.com/news/articles/c4n1l9g2wn9o
+[2024-05-12T15:56:21.618+0000] {logging_mixin.py:120} INFO - Title: Why Modi's party is not fighting elections in Kashmir
+Description: This is the first general election since India ended the special status of Kashmir in 2019.
+Link: https://www.bbc.com/news/world-asia-india-68968593
+[2024-05-12T15:56:21.619+0000] {logging_mixin.py:120} INFO - Title: Shein suppliers still work 75-hour weeks - report
+Description: A Swiss pressure group says some staff at Shein suppliers are still working excessive overtime.
+Link: https://www.bbc.com/news/articles/cg67w73nxqxo
+[2024-05-12T15:56:21.622+0000] {logging_mixin.py:120} INFO - Title: Harry and Meghan visit school on last day in Nigeria
+Description: Prince Harry played basketball with a group of school students in Nigeria's most populated city.
+Link: https://www.bbc.com/news/world-africa-68999815
+[2024-05-12T15:56:21.623+0000] {logging_mixin.py:120} INFO - Title: Northern Lights captured glowing over the UK
+Description: Time-lapse video shows swirls of green, pink and scarlet moving across the night sky in Nottingham.
+Link: https://www.bbc.com/news/uk-68994265
+[2024-05-12T15:56:21.624+0000] {logging_mixin.py:120} INFO - Title: Djokovic dons a helmet after being hit by bottle
+Description: The tennis player was accidentally struck in the head with a hard bottle that fell from a fan's backpack.
+Link: https://www.bbc.com/news/world-europe-68994908
+[2024-05-12T15:56:21.625+0000] {logging_mixin.py:120} INFO - Title: A visit to one of Antarctica's stunning penguin colonies
+Description: Marc Cieslak finds out how gentoo penguins are adapting to a warming climate.
+Link: https://www.bbc.com/reel/video/p0hwrqms/a-visit-to-one-of-antarctica-s-stunning-penguin-colonies
+[2024-05-12T15:56:21.633+0000] {logging_mixin.py:120} INFO - Title: Israeli ambassador shreds UN charter with tiny shredder
+Description: Gilad Erdan condemned the passing of a resolution enhancing Palestine's rights within the organisation.
+Link: https://www.bbc.com/news/world-us-canada-68994032
+[2024-05-12T15:56:21.634+0000] {logging_mixin.py:120} INFO - Title: What to expect from Michael Cohen at Trump trial
+Description: The BBC's Nada Tawfik looks ahead to Monday, when Donald Trump's former lawyer witll take the stand.
+Link: https://www.bbc.com/news/world-us-canada-68987628
+[2024-05-12T15:56:21.635+0000] {logging_mixin.py:120} INFO - Title: Island fights back grey squirrel invasion
+Description: A conservationist is on a mission to keep a Welsh island a sanctuary for native red squirrels.
+Link: https://www.bbc.com/news/videos/cnl4nrl5qlro
+[2024-05-12T15:56:21.636+0000] {logging_mixin.py:120} INFO - Title: Is social media worth paying for?
+Description: No description available
+Link: https://www.bbc.com/news/business-68977522
+[2024-05-12T15:56:21.637+0000] {logging_mixin.py:120} INFO - Title: In pictures: Northern Lights dazzle around the world
+Description: No description available
+Link: https://www.bbc.com/news/in-pictures-68995685
+[2024-05-12T15:56:21.638+0000] {logging_mixin.py:120} INFO - Title: UK arms ban for Israel would help Hamas - Cameron
+Description: No description available
+Link: https://www.bbc.com/news/uk-politics-68999212
+[2024-05-12T15:56:21.639+0000] {logging_mixin.py:120} INFO - Title: UK arms exports change would make Hamas stronger, says Cameron
+Description: No description available
+Link: https://www.bbc.com/news/uk-68998809
+[2024-05-12T15:56:21.640+0000] {logging_mixin.py:120} INFO - Title: UK investigates Hamas claim hostage killed in Gaza
+Description: No description available
+Link: https://www.bbc.com/news/world-middle-east-68998654
+[2024-05-12T15:56:21.641+0000] {logging_mixin.py:120} INFO - Title: Israel orders more evacuations as Rafah fighting intensifies
+Description: The Israeli military tells thousands of Palestinians to leave the city as it expands its military operation.
+Link: https://www.bbc.com/news/articles/cer3mr09vzxo
+[2024-05-12T15:56:21.643+0000] {logging_mixin.py:120} INFO - Title: Russia blames Ukraine after blast destroys apartments
+Description: No description available
+Link: https://www.bbc.com/news/world-europe-68998913
+[2024-05-12T15:56:21.650+0000] {logging_mixin.py:120} INFO - Title: The Russians simply walked in, Ukrainian troops in Kharkiv tell BBC
+Description: No description available
+Link: https://www.bbc.com/news/articles/c72p0xx410xo
+[2024-05-12T15:56:21.653+0000] {logging_mixin.py:120} INFO - Title: Russian apartments collapse after explosion
+Description: No description available
+Link: https://www.bbc.com/news/world-europe-68998812
+[2024-05-12T15:56:21.672+0000] {logging_mixin.py:120} INFO - Title: Hundreds flee Ukraine border area after Russia attack
+Description: Evacuations are under way in the Kharkiv area as fighting continues after Friday's surprise incursions.
+Link: https://www.bbc.com/news/world-europe-68994877
+[2024-05-12T15:56:21.681+0000] {logging_mixin.py:120} INFO - Title: Man who received first pig kidney transplant dies
+Description: No description available
+Link: https://www.bbc.com/news/articles/c4n1l9g2wn9o
+[2024-05-12T15:56:21.683+0000] {logging_mixin.py:120} INFO - Title: Tourists, history seekers and a puppet: Meet the Trump trial devotees
+Description: No description available
+Link: https://www.bbc.com/news/world-us-canada-68991796
+[2024-05-12T15:56:21.685+0000] {logging_mixin.py:120} INFO - Title: Virginia university students walk out of graduation event
+Description: No description available
+Link: https://www.bbc.com/news/world-us-canada-68996066
+[2024-05-12T15:56:21.688+0000] {logging_mixin.py:120} INFO - Title: Thousands evacuated due to British Columbia wildfire
+Description: Fort McMurray residents in neighbouring Alberta, Canada are also under an evacuation alert due to a blaze.
+Link: https://www.bbc.com/news/world-us-canada-68996062
+[2024-05-12T15:56:21.690+0000] {logging_mixin.py:120} INFO - Title: The man who took on the coal industry to save a forest - and won
+Description: No description available
+Link: https://www.bbc.com/news/articles/cyxepvdewkno
+[2024-05-12T15:56:21.691+0000] {logging_mixin.py:120} INFO - Title: The escaped dissident still pursued decades on by China
+Description: No description available
+Link: https://www.bbc.com/news/articles/crgy7xypwj8o
+[2024-05-12T15:56:21.705+0000] {logging_mixin.py:120} INFO - Title: Hundreds feared dead in Afghanistan flash flooding
+Description: No description available
+Link: https://www.bbc.com/news/articles/c4n1wze72kdo
+[2024-05-12T15:56:21.707+0000] {logging_mixin.py:120} INFO - Title: Attacks on players mar start of Malaysia soccer season
+Description: Three members of the national team suffer separate assaults, leaving police and fans baffled.
+Link: https://www.bbc.com/news/world-asia-68994876
+[2024-05-12T15:56:21.712+0000] {logging_mixin.py:120} INFO - Title: This is what it's like inside a black hole
+Description: No description available
+Link: https://www.bbc.com/news/science-environment-68991593
+[2024-05-12T15:56:21.715+0000] {logging_mixin.py:120} INFO - Title: Chainsaw vandals hack at trees to get better Sydney harbour view
+Description: No description available
+Link: https://www.bbc.com/news/world-australia-68871869
+[2024-05-12T15:56:21.716+0000] {logging_mixin.py:120} INFO - Title: Australia tries to stop a violence against women 'epidemic', starting with schools
+Description: No description available
+Link: https://www.bbc.com/news/world-australia-68989354
+[2024-05-12T15:56:21.716+0000] {logging_mixin.py:120} INFO - Title: Men's T20 World Cup squads including England, India & Australia
+Description: No description available
+Link: https://www.bbc.com/sport/cricket/articles/cne93vemvreo
+[2024-05-12T15:56:21.717+0000] {logging_mixin.py:120} INFO - Title: Australia backs gas beyond 2050 despite climate fears
+Description: The policy comes despite global calls to drastically phase out fossil fuels to reach climate targets.
+Link: https://www.bbc.com/news/articles/cjq5gky4e5no
+[2024-05-12T15:56:21.718+0000] {logging_mixin.py:120} INFO - Title: Thunderstorm warning after hottest day this year
+Description: No description available
+Link: https://www.bbc.com/news/articles/cll451q4l55o
+[2024-05-12T15:56:21.721+0000] {logging_mixin.py:120} INFO - Title: 'My mistakes are my own,' says Zahawi on tax affairs
+Description: No description available
+Link: https://www.bbc.com/news/uk-68998810
+[2024-05-12T15:56:21.722+0000] {logging_mixin.py:120} INFO - Title: UK arms ban for Israel would help Hamas - Cameron
+Description: No description available
+Link: https://www.bbc.com/news/uk-politics-68999212
+[2024-05-12T15:56:21.723+0000] {logging_mixin.py:120} INFO - Title: UK arms exports change would make Hamas stronger, says Cameron
+Description: The UK's foreign secretary has said there are no plans to copy the US and potentially stop some arms sales to Israel.
+Link: https://www.bbc.com/news/uk-68998809
+[2024-05-12T15:56:21.724+0000] {logging_mixin.py:120} INFO - Title: UK arms ban for Israel would help Hamas - Cameron
+Description: No description available
+Link: https://www.bbc.com/news/uk-politics-68999212
+[2024-05-12T15:56:21.725+0000] {logging_mixin.py:120} INFO - Title: UK investigates Hamas claim hostage killed in Gaza
+Description: No description available
+Link: https://www.bbc.com/news/world-middle-east-68998654
+[2024-05-12T15:56:21.731+0000] {logging_mixin.py:120} INFO - Title: Woman makes history in gruelling desert challenge
+Description: No description available
+Link: https://www.bbc.com/news/articles/c51n40vp800o
+[2024-05-12T15:56:21.732+0000] {logging_mixin.py:120} INFO - Title: Israel orders more evacuations as Rafah fighting intensifies
+Description: The Israeli military tells thousands of Palestinians to leave the city as it expands its military operation.
+Link: https://www.bbc.com/news/articles/cer3mr09vzxo
+[2024-05-12T15:56:21.733+0000] {logging_mixin.py:120} INFO - Title: Tunisia lawyer arrested during live news broadcast
+Description: No description available
+Link: https://www.bbc.com/news/articles/c4n1jwel080o
+[2024-05-12T15:56:21.734+0000] {logging_mixin.py:120} INFO - Title: Children killed as bomb falls near Sudan hospital - MSF
+Description: No description available
+Link: https://www.bbc.com/news/articles/c51n5lppw8vo
+[2024-05-12T15:56:21.738+0000] {logging_mixin.py:120} INFO - Title: Ghana, Nigeria and the quest for UK looted treasure
+Description: No description available
+Link: https://www.bbc.com/news/articles/cd1353v5p5xo
+[2024-05-12T15:56:21.743+0000] {logging_mixin.py:120} INFO - Title: How crops are being disaster-proofed
+Description: Scientists are creating hardier crops by cross-breeding wild varities and tweaking crop genes.
+Link: https://www.bbc.com/news/articles/c99z7wwq1lgo
+[2024-05-12T15:56:21.744+0000] {logging_mixin.py:120} INFO - Title: Is social media worth paying for?
+Description: No description available
+Link: https://www.bbc.com/news/business-68977522
+[2024-05-12T15:56:21.747+0000] {logging_mixin.py:120} INFO - Title: Protesters attempt to storm Germany's Tesla factory
+Description: No description available
+Link: https://www.bbc.com/news/articles/cv2j0v237vko
+[2024-05-12T15:56:21.749+0000] {logging_mixin.py:120} INFO - Title: UK exits recession with fastest growth in two years
+Description: No description available
+Link: https://www.bbc.com/news/business-68983741
+[2024-05-12T15:56:21.750+0000] {logging_mixin.py:120} INFO - Title: UK PM says it'll take time for people to feel better
+Description: The prime minister says "there is more work to do" as the UK emerges from recession.
+Link: https://www.bbc.com/news/articles/cmm3gzz1dj3o
+[2024-05-12T15:56:21.751+0000] {logging_mixin.py:120} INFO - Title: The photographer capturing 'stranger portraits'
+Description: No description available
+Link: https://www.bbc.com/news/articles/cv2j18le9e3o
+[2024-05-12T15:56:21.761+0000] {logging_mixin.py:120} INFO - Title: How sci-fi writer JG Ballard predicted ChatGPT
+Description: No description available
+Link: https://www.bbc.com/future/article/20240510-how-sci-fi-writer-jg-ballards-computer-poems-predicted-chatgpt
+[2024-05-12T15:56:21.763+0000] {logging_mixin.py:120} INFO - Title: Ros Atkins on... How different countries protect children online
+Description: No description available
+Link: https://www.bbc.com/news/technology-68994263
+[2024-05-12T15:56:21.764+0000] {logging_mixin.py:120} INFO - Title: Test-at-home kit for cancer patients approved for use in UK
+Description: Patients say the device allows them to reduce the number of hospital visits involved in cancer care.
+Link: https://www.bbc.com/news/technology-68972855
+[2024-05-12T15:56:21.781+0000] {logging_mixin.py:120} INFO - Title: Cult movie director Roger Corman dies aged 98
+Description: No description available
+Link: https://www.bbc.com/news/entertainment-arts-17127556
+[2024-05-12T15:56:21.783+0000] {logging_mixin.py:120} INFO - Title: Switzerland's Nemo wins Eurovision as UK comes 18th
+Description: No description available
+Link: https://www.bbc.com/news/articles/c03drw23zewo
+[2024-05-12T15:56:21.784+0000] {logging_mixin.py:120} INFO - Title: In pictures: Top moments from Eurovision Song Contest 2024
+Description: No description available
+Link: https://www.bbc.com/news/articles/cv2dy69jm6no
+[2024-05-12T15:56:21.784+0000] {logging_mixin.py:120} INFO - Title: Saffrons defeat Tipperary in Tailteann Cup opener
+Description: No description available
+Link: https://www.bbc.com/sport/articles/cy63z4zq11jo
+[2024-05-12T15:56:21.785+0000] {logging_mixin.py:120} INFO - Title: No changes to championship during my term - Burns
+Description: No description available
+Link: https://www.bbc.com/sport/articles/c2e0jgl1me9o
+[2024-05-12T15:56:21.789+0000] {logging_mixin.py:120} INFO - Title: Djokovic out of Italian Open after defeat by Tabilo
+Description: No description available
+Link: https://www.bbc.com/sport/tennis/articles/c51n4jej3g7o
+[2024-05-12T15:56:21.790+0000] {logging_mixin.py:120} INFO - Title: 'I'm in shock' - English teenager Gill breaks 45-year-old record
+Description: English 17-year-old Phoebe Gill runs an astonishing 800 metres time of one minute 57.86 seconds at the Belfast Irish Milers Meet to break the European Under-18 record of 1:59.65 set by East Germany’s Marion Geissler-Hübner in 1979.
+Link: https://www.bbc.com/sport/athletics/videos/c9wz9xyexk3o
+[2024-05-12T15:56:21.791+0000] {logging_mixin.py:120} INFO - Title: In pictures: Northern Lights dazzle around the world
+Description: No description available
+Link: https://www.bbc.com/news/in-pictures-68995685
+[2024-05-12T15:56:21.792+0000] {logging_mixin.py:120} INFO - Title: Hundreds feared dead in Afghanistan flash flooding
+Description: No description available
+Link: https://www.bbc.com/news/articles/c4n1wze72kdo
+[2024-05-12T15:56:21.795+0000] {logging_mixin.py:120} INFO - Title: Fight to save African penguin goes to law
+Description: No description available
+Link: https://www.bbc.com/news/articles/c4n104z0xklo
+[2024-05-12T15:56:21.798+0000] {logging_mixin.py:120} INFO - Title: Brazil floods drive thousands from their homes
+Description: Heavy rains wreak havoc in southern Brazil, leaving many homeless and raising fears of further chaos.
+Link: https://www.bbc.com/news/world-latin-america-68979430
+[2024-05-12T15:56:21.800+0000] {logging_mixin.py:120} INFO - Title: Northern Lights stun UK in spectacular display
+Description: No description available
+Link: https://www.bbc.com/news/articles/c1ej1kk0d88o
+[2024-05-12T15:56:21.801+0000] {logging_mixin.py:120} INFO - Title: Northern Lights captured glowing over the UK
+Description: No description available
+Link: https://www.bbc.com/news/uk-68994265
+[2024-05-12T15:56:21.805+0000] {logging_mixin.py:120} INFO - Title: 'I feel embarrassed to be addicted': Why young people still take up smoking
+Description: No description available
+Link: https://www.bbc.com/news/health-68992772
+[2024-05-12T15:56:21.806+0000] {logging_mixin.py:120} INFO - Title: This is what it's like inside a black hole
+Description: A black hole is a region of space with such strong gravity not even light can escape.
+Link: https://www.bbc.com/news/science-environment-68991593
+[2024-05-12T15:56:21.807+0000] {logging_mixin.py:120} INFO - Title: A time-honoured guacamole lookalike
+Description: No description available
+Link: https://www.bbc.com/travel/article/20240504-guacachile-a-time-honoured-guacamole-lookalike
+[2024-05-12T15:56:21.808+0000] {logging_mixin.py:120} INFO - Title: How brewers are reviving ancient beers
+Description: No description available
+Link: https://www.bbc.com/travel/article/20240426-from-ancient-egypt-to-roman-britain-brewers-are-reviving-beers-from-the-past
+[2024-05-12T15:56:21.809+0000] {logging_mixin.py:120} INFO - Title: A new take on matzah ball soup
+Description: No description available
+Link: https://www.bbc.com/travel/article/20240421-matzah-ball-soup-a-new-take-on-a-jewish-classic
+[2024-05-12T15:56:21.809+0000] {logging_mixin.py:120} INFO - Title: The wines birthed from black volcanic craters
+Description: In Spain's Lanzarote Island, conical hollows built into layers of volcanic ash yield wines that have been created from generations of ingenuity and hard work.
+Link: https://www.bbc.com/travel/article/20240418-the-ingenious-wines-birthed-from-black-volcanic-craters
+[2024-05-12T15:56:21.810+0000] {logging_mixin.py:120} INFO - Title: An insider's guide to San Francisco's Mission District
+Description: No description available
+Link: https://www.bbc.com/travel/article/20240510-an-insiders-guide-to-san-franciscos-mission-district
+[2024-05-12T15:56:21.816+0000] {logging_mixin.py:120} INFO - Title: A paradise island with a reputation for witchcraft
+Description: No description available
+Link: https://www.bbc.com/travel/article/20240510-siquijor-a-paradise-island-with-a-reputation-for-witchcraft
+[2024-05-12T15:56:21.821+0000] {logging_mixin.py:120} INFO - Title: A solution for working parents who want to travel
+Description: No description available
+Link: https://www.bbc.com/travel/article/20240508-a-solution-for-working-parents-who-want-to-travel
+[2024-05-12T15:56:21.823+0000] {logging_mixin.py:120} INFO - Title: A Michelin-starred chef's weekend in Marseille
+Description: Celebrity chef Alexandre Mazzia will be a torchbearer when the Paris 2024 Olympics kick off in his hometown of Marseille. Here is his guide to the city, from sunsets to seafood.
+Link: https://www.bbc.com/travel/article/20240508-celebrity-chef-alexandre-mazzias-favourite-ways-to-enjoy-marseille-during-the-olympics-and-beyond
+[2024-05-12T15:56:21.823+0000] {logging_mixin.py:120} INFO - Title: Erdogan says Netanyahu makes Hitler envious with ‘genocidal methods’
+Description: Egypt to join South Africa’s ICJ genocide case against Israel.
+Link: https://www.dawn.com/live/gaza-invasion
+[2024-05-12T15:56:21.824+0000] {logging_mixin.py:120} INFO - Title: Situation in AJK calms down after 2 days of violent clashes
+Description: Rangers deployment withdrawn; JAAC leader open to negotiations with govt.
+Link: https://www.dawn.com/news/1833056/situation-in-ajk-calms-down-after-2-days-of-violent-clashes
+[2024-05-12T15:56:21.825+0000] {logging_mixin.py:120} INFO - Title: Hero’s welcome for hockey team in Lahore after winning silver medal in Azlan Shah Cup
+Description: PM’s Youth Programme Chairman Mashhood says government will support the team and reward their efforts accordingly.
+Link: https://www.dawn.com/news/1833061/heros-welcome-for-hockey-team-in-lahore-after-winning-silver-medal-in-azlan-shah-cup
+[2024-05-12T15:56:21.826+0000] {logging_mixin.py:120} INFO - Title: IMF mission to meet Pakistani authorities next week to discuss ‘next phase of engagement’: official
+Description: The aim is to lay the foundation for better governance, and more inclusive and resilient economic growth, says Esther Perez Ruiz.
+Link: https://www.dawn.com/news/1833053/imf-mission-to-meet-pakistani-authorities-next-week-to-discuss-next-phase-of-engagement-official
+[2024-05-12T15:56:21.827+0000] {logging_mixin.py:120} INFO - Title: No such thing as strategic state-owned enterprises, says Finance Minister Aurangzeb
+Description: Says longer, larger IMF programme needed to bring "permanence in macroeconomic stability and structural reforms".
+Link: https://www.dawn.com/news/1833050/no-such-thing-as-strategic-state-owned-enterprises-says-finance-minister-aurangzeb
+[2024-05-12T15:56:21.829+0000] {logging_mixin.py:120} INFO - Title: Fight till the last ball, PCB chief tells cricket team in Dublin
+Description: Says T20 cricket needs unique and aggressive approach.
+Link: https://www.dawn.com/news/1833052/fight-till-the-last-ball-pcb-chief-tells-cricket-team-in-dublin
+[2024-05-12T15:56:21.830+0000] {logging_mixin.py:120} INFO - Title: Canada arrests fourth Indian national in killing of Sikh activist
+Description: The Indian national was already being held for unrelated gun charges.
+Link: https://www.dawn.com/news/1833042/canada-arrests-fourth-indian-national-in-killing-of-sikh-activist
+[2024-05-12T15:56:21.831+0000] {logging_mixin.py:120} INFO - Title: Second night of auroras seen amid ‘extreme’ solar storm
+Description: No major disruptions to power or communications networks appear to have been reported this time around.
+Link: https://www.dawn.com/news/1833046/second-night-of-auroras-seen-amid-extreme-solar-storm
+[2024-05-12T15:56:21.831+0000] {logging_mixin.py:120} INFO - Title: ADB links support with IMF’s clean chit
+Description: Bank’s top official says Pakistan has sorted out immediate liquidity crisis, but still in ICU.
+Link: https://www.dawn.com/news/1833000/adb-links-support-with-imfs-clean-chit
+[2024-05-12T15:56:21.833+0000] {logging_mixin.py:120} INFO - Title: Govt hints at raising wheat purchase target
+Description: Drive to buy 400,000 tonnes of grain kicks off; farmers want wheat procured from across Punjab; Kissan leader urges govt to ensure official rate of staple.
+Link: https://www.dawn.com/news/1832980/govt-hints-at-raising-wheat-purchase-target
+[2024-05-12T15:56:21.834+0000] {logging_mixin.py:120} INFO - Title: Is PTI Ready to Apologise for May 9th?
+Description: No description available
+Link: https://www.youtube.com/watch?v=UeSr8kxz7kE
+[2024-05-12T15:56:21.835+0000] {logging_mixin.py:120} INFO - Title: What On Earth Does The Government Want From Us?
+Description: No description available
+Link: https://www.youtube.com/watch?v=DLnFKstpqSM
+[2024-05-12T15:56:21.837+0000] {logging_mixin.py:120} INFO - Title: How Israel’s Killer Robots In Gaza Are Redefining Automated Warfare?
+Description: No description available
+Link: https://www.youtube.com/watch?v=ax6GtKBV4o4
+[2024-05-12T15:56:21.838+0000] {logging_mixin.py:120} INFO - Title: Top News Stories: Pakistan’s Lunar Mission
+Description: No description available
+Link: https://www.youtube.com/watch?v=6Y6pv4dgwok
+[2024-05-12T15:56:21.839+0000] {logging_mixin.py:120} INFO - Title: Why Are Israel And Its Western Allies On The Edge Over ICC Arrest Warrants?
+Description: No description available
+Link: https://www.youtube.com/watch?v=368pk1LtbvY
+[2024-05-12T15:56:21.844+0000] {logging_mixin.py:120} INFO - Title: May 9
+Description: No description available
+Link: https://www.youtube.com/watch?v=ZKNxVl6yFyc
+[2024-05-12T15:56:21.845+0000] {logging_mixin.py:120} INFO - Title: Top News Stories: Modi Aggression In Kashmir
+Description: No description available
+Link: https://www.youtube.com/watch?v=1j9DKEupIUY
+[2024-05-12T15:56:21.847+0000] {logging_mixin.py:120} INFO - Title: Americans Are Upset Over US Supporting Violence Against Palestinians
+Description: No description available
+Link: https://www.youtube.com/watch?v=2FbxyFxRHdM
+[2024-05-12T15:56:21.848+0000] {logging_mixin.py:120} INFO - Title: May 12, 2007 — the day Karachi went berserk
+Description: No description available
+Link: https://www.dawn.com/news/1332592
+[2024-05-12T15:56:21.849+0000] {logging_mixin.py:120} INFO - Title: Mother’s Day: Reflections of a mother
+Description: No description available
+Link: https://www.dawn.com/news/1555087/mothers-day-reflections-of-a-mother
+[2024-05-12T15:56:21.850+0000] {logging_mixin.py:120} INFO - Title: Concerns that Modi’s rhetoric might incite further violence against Indian Muslims are increasing
+Description: No description available
+Link: https://www.dawn.com/news/1832981
+[2024-05-12T15:56:21.852+0000] {logging_mixin.py:120} INFO - Title: FIFA’s foul on Pakistan football
+Description: No description available
+Link: https://www.dawn.com/news/1833021
+[2024-05-12T15:56:21.854+0000] {logging_mixin.py:120} INFO - Title: Who can rock the hybrid boat?
+Description: No description available
+Link: https://www.dawn.com/news/1832983/who-can-rock-the-hybrid-boat
+[2024-05-12T15:56:21.855+0000] {logging_mixin.py:120} INFO - Title: Challenges working mothers face in the corporate sector
+Description: No description available
+Link: https://aurora.dawn.com/news/1145113
+[2024-05-12T15:56:21.857+0000] {logging_mixin.py:120} INFO - Title: Looming pension crisis cries out for corrective measures
+Description: No description available
+Link: https://www.dawn.com/news/1832997/looming-pension-crisis-cries-out-for-corrective-measures
+[2024-05-12T15:56:21.859+0000] {logging_mixin.py:120} INFO - Title: Smokers’ corner: Khan and the generals
+Description: No description available
+Link: https://www.dawn.com/news/1833014
+[2024-05-12T15:56:21.860+0000] {logging_mixin.py:120} INFO - Title: Editorial: It is imperative for the state to reconsider its approach to human rights
+Description: No description available
+Link: https://www.dawn.com/news/1832987
+[2024-05-12T15:56:21.862+0000] {logging_mixin.py:120} INFO - Title: Love knows no boundaries at Karachi’s Edhi Home nursery for special children
+Description: No description available
+Link: https://www.dawn.com/news/1832965/love-knows-no-boundaries-at-karachis-edhi-home-nursery-for-special-children
+[2024-05-12T15:56:21.863+0000] {logging_mixin.py:120} INFO - Title: Documentary on Dr Aafia Siddiqui launched in Karachi
+Description: No description available
+Link: https://www.dawn.com/news/1832958/documentary-on-dr-aafia-siddiqui-launched-in-karachi
+[2024-05-12T15:56:21.870+0000] {logging_mixin.py:120} INFO - Title: To draw or not to draw
+Description: Let's find out what Din Din, Delma and Dazel are up to this week.
+Link: https://www.dawn.com/news/1833048/to-draw-or-not-to-draw
+[2024-05-12T15:56:21.874+0000] {logging_mixin.py:120} INFO - Title: Pakistan’s moment of youth
+Description: No description available
+Link: https://www.dawn.com/news/1831567
+[2024-05-12T15:56:21.875+0000] {logging_mixin.py:120} INFO - Title: Pakistan’s iCube-Qamar beams back first images from moon’s orbit
+Description: The country's inaugural lunar satellite is part of China’s Chang’e-6 mission.
+Link: https://www.dawn.com/news/1832658/pakistans-icube-qamar-beams-back-first-images-from-moons-orbit
+[2024-05-12T15:56:21.876+0000] {logging_mixin.py:120} INFO - Title: Ruling coalition loses 27 reserved seats in Punjab
+Description: Speaker suspends PML-N’s 23, PPP’s two, and one member each of PML-Q, IPP.
+Link: https://www.dawn.com/news/1832750/ruling-coalition-loses-27-reserved-seats-in-punjab
+[2024-05-12T15:56:21.878+0000] {logging_mixin.py:120} INFO - Title: PIA staff forgets to put boy’s body on plane
+Description: Shocked parents, relatives protest against airline management’s negligence at Skardu airport.
+Link: https://www.dawn.com/news/1832796/pia-staff-forgets-to-put-boys-body-on-plane
+[2024-05-12T15:56:21.879+0000] {logging_mixin.py:120} INFO - Title: Downside risks for Pakistan remain exceptionally high: IMF
+Description: "Political uncertainty remains significant,” Fund says despite govt indicating intention to continue standby arrangement policies.
+Link: https://www.dawn.com/news/1832699/downside-risks-for-pakistan-remain-exceptionally-high-imf
+[2024-05-12T15:56:21.880+0000] {logging_mixin.py:120} INFO - Title: Pakistan remain unbeaten in Azlan Shah Cup as match with New Zealand ends in tie
+Description: Will face leading Japan in the final at 5:30pm tomorrow; Information Minister Attaullah Tarar says team's achievements will be highlighted across all media.
+Link: https://www.dawn.com/news/1832670/pakistan-remain-unbeaten-in-azlan-shah-cup-as-match-with-new-zealand-ends-in-tie
+[2024-05-12T15:56:21.881+0000] {logging_mixin.py:120} INFO - Title: Who can rock the hybrid boat?
+Description: If the chief was able to weather that storm then, he appears far more secure now.
+Link: https://www.dawn.com/news/1832983/who-can-rock-the-hybrid-boat
+[2024-05-12T15:56:21.883+0000] {logging_mixin.py:120} INFO - Title: Insurgency and social change
+Description: No description available
+Link: https://www.dawn.com/news/1832982/insurgency-and-social-change
+[2024-05-12T15:56:21.885+0000] {logging_mixin.py:120} INFO - Title: Indian elections
+Description: No description available
+Link: https://www.dawn.com/news/1832981/indian-elections
+[2024-05-12T15:56:21.887+0000] {logging_mixin.py:120} INFO - Title: Overflowing cups
+Description: No description available
+Link: https://www.dawn.com/news/1832979/overflowing-cups
+[2024-05-12T15:56:21.891+0000] {logging_mixin.py:120} INFO - Title: The lethal troika
+Description: No description available
+Link: https://www.dawn.com/news/1832832/the-lethal-troika
+[2024-05-12T15:56:21.892+0000] {logging_mixin.py:120} INFO - Title: A turbulent 2023
+Description: Govt must ensure judiciary's independence, respect for democratic processes, and protection for all citizens against abuse of power.
+Link: https://www.dawn.com/news/1832987/a-turbulent-2023
+[2024-05-12T15:56:21.893+0000] {logging_mixin.py:120} INFO - Title: A moral victory
+Description: AS the UN General Assembly overwhelmingly voted on Friday in favour of granting Palestine greater rights at the...
+Link: https://www.dawn.com/news/1832986/a-moral-victory
+[2024-05-12T15:56:21.896+0000] {logging_mixin.py:120} INFO - Title: Hope after defeat
+Description: ON Saturday, having fallen behind Japan in the first quarter of the Sultan Azlan Shah Cup final, Pakistan showed...
+Link: https://www.dawn.com/news/1832984/hope-after-defeat
+[2024-05-12T15:56:21.897+0000] {logging_mixin.py:120} INFO - Title: No title available
+Description: No description available
+Link: No link available
+[2024-05-12T15:56:21.898+0000] {logging_mixin.py:120} INFO - Title: The lethal troika
+Description: The situation necessitates a fundamental shift in the terrorist threat assessment in Pakistan.
+Link: https://www.dawn.com/news/1832832/the-lethal-troika
+[2024-05-12T15:56:21.899+0000] {logging_mixin.py:120} INFO - Title: The net metering dead end
+Description: The big problem in Pakistan’s power bureaucracy now is that the state insists on setting the price of electricity manually, using outmoded formulae.
+Link: https://www.dawn.com/news/1832368/the-net-metering-dead-end
+[2024-05-12T15:56:21.900+0000] {logging_mixin.py:120} INFO - Title: An inclusive judiciary
+Description: While the detailed deliberations of the JCP need not be made public, the reasons for selecting certain candidates for nomination must be disclosed.
+Link: https://www.dawn.com/news/1832831/an-inclusive-judiciary
+[2024-05-12T15:56:21.901+0000] {logging_mixin.py:120} INFO - Title: Child marriages
+Description: Almost 19m girls in Pakistan are married before they turn 18.
+Link: https://www.dawn.com/news/1832829/child-marriages
+[2024-05-12T15:56:21.902+0000] {logging_mixin.py:120} INFO - Title: Education emergency
+Description: The current situation is the result of the choices that we have made and are still making.
+Link: https://www.dawn.com/news/1832621/education-emergency
+[2024-05-12T15:56:21.909+0000] {logging_mixin.py:120} INFO - Title: Street safety
+Description: Traditional policing methods may result in faulty investigations.
+Link: https://www.dawn.com/news/1832830/street-safety
+[2024-05-12T15:56:21.912+0000] {logging_mixin.py:120} INFO - Title: IMF mission to meet Pakistani authorities next week to discuss ‘next phase of engagement’: official
+Description: No description available
+Link: https://www.dawn.com/news/1833053/imf-mission-to-meet-pakistani-authorities-next-week-to-discuss-next-phase-of-engagement-official
+[2024-05-12T15:56:21.914+0000] {logging_mixin.py:120} INFO - Title: No such thing as strategic state-owned enterprises, says Finance Minister Aurangzeb
+Description: No description available
+Link: https://www.dawn.com/news/1833050/no-such-thing-as-strategic-state-owned-enterprises-says-finance-minister-aurangzeb
+[2024-05-12T15:56:21.916+0000] {logging_mixin.py:120} INFO - Title: ADB links support with IMF’s clean chit
+Description: No description available
+Link: https://www.dawn.com/news/1833000/adb-links-support-with-imfs-clean-chit
+[2024-05-12T15:56:21.918+0000] {logging_mixin.py:120} INFO - Title: Areas of cooperation with Saudi Arabia identified: PM Shehbaz
+Description: No description available
+Link: https://www.dawn.com/news/1832993/areas-of-cooperation-with-saudi-arabia-identified-pm-shehbaz
+[2024-05-12T15:56:21.920+0000] {logging_mixin.py:120} INFO - Title: IMF endorses status quo in SBP’s policy rate
+Description: No description available
+Link: https://www.dawn.com/news/1832994
+[2024-05-12T15:56:21.921+0000] {logging_mixin.py:120} INFO - Title: Exports to Europe fall despite GSP+
+Description: No description available
+Link: https://www.dawn.com/news/1832999/exports-to-europe-fall-despite-gsp
+[2024-05-12T15:56:21.922+0000] {logging_mixin.py:120} INFO - Title: Hero’s welcome for hockey team in Lahore after winning silver medal in Azlan Shah Cup
+Description: No description available
+Link: https://www.dawn.com/news/1833061/heros-welcome-for-hockey-team-in-lahore-after-winning-silver-medal-in-azlan-shah-cup
+[2024-05-12T15:56:21.923+0000] {logging_mixin.py:120} INFO - Title: Fight till the last ball, PCB chief tells cricket team in Dublin
+Description: No description available
+Link: https://www.dawn.com/news/1833052/fight-till-the-last-ball-pcb-chief-tells-cricket-team-in-dublin
+[2024-05-12T15:56:21.924+0000] {logging_mixin.py:120} INFO - Title: FIFA’s foul on Pakistan football
+Description: No description available
+Link: https://www.dawn.com/news/1833021
+[2024-05-12T15:56:21.926+0000] {logging_mixin.py:120} INFO - Title: Bednarek storms to 200m triumph in Doha, Neeraj Chopra falls short
+Description: No description available
+Link: https://www.dawn.com/news/1832946/bednarek-storms-to-200m-triumph-in-doha-neeraj-chopra-falls-short
+[2024-05-12T15:56:21.927+0000] {logging_mixin.py:120} INFO - Title: Real Madrid eagerly awaits Mbappe after PSG exit confirmed
+Description: No description available
+Link: https://www.dawn.com/news/1832928/real-madrid-eagerly-awaits-mbappe-after-psg-exit-confirmed
+[2024-05-12T15:56:21.928+0000] {logging_mixin.py:120} INFO - Title: Djokovic bottle strike overshadows Rome Open cruise past Moutet
+Description: No description available
+Link: https://www.dawn.com/news/1832945/djokovic-bottle-strike-overshadows-rome-open-cruise-past-moutet
+[2024-05-12T15:56:21.929+0000] {logging_mixin.py:120} INFO - Title: Second night of auroras seen amid ‘extreme’ solar storm
+Description: No description available
+Link: https://www.dawn.com/news/1833046/second-night-of-auroras-seen-amid-extreme-solar-storm
+[2024-05-12T15:56:21.931+0000] {logging_mixin.py:120} INFO - Title: Canada arrests fourth Indian national in killing of Sikh activist
+Description: No description available
+Link: https://www.dawn.com/news/1833042/canada-arrests-fourth-indian-national-in-killing-of-sikh-activist
+[2024-05-12T15:56:21.932+0000] {logging_mixin.py:120} INFO - Title: Israel orders Palestinians to evacuate from more areas of Rafah
+Description: No description available
+Link: https://www.dawn.com/news/1832947/israel-orders-palestinians-to-evacuate-from-more-areas-of-rafah
+[2024-05-12T15:56:21.933+0000] {logging_mixin.py:120} INFO - Title: UAE hits out at Netanyahu for saying it may help run Gaza
+Description: No description available
+Link: https://www.dawn.com/news/1832948/uae-hits-out-at-netanyahu-for-saying-it-may-help-run-gaza
+[2024-05-12T15:56:21.934+0000] {logging_mixin.py:120} INFO - Title: Washington says use of its weapons by Tel Aviv in Gaza violated law
+Description: No description available
+Link: https://www.dawn.com/news/1833001/washington-says-use-of-its-weapons-by-tel-aviv-in-gaza-violated-law
+[2024-05-12T15:56:21.935+0000] {logging_mixin.py:120} INFO - Title: Delhi CM Kejriwal exhorts Indians to resist ‘dictatorship’
+Description: No description available
+Link: https://www.dawn.com/news/1833009/delhi-cm-kejriwal-exhorts-indians-to-resist-dictatorship
+[2024-05-12T15:56:21.938+0000] {logging_mixin.py:120} INFO - Title: Men must take the lead in standing up against sexual harassment, says Hamza Ali Abbasi
+Description: No description available
+Link: https://images.dawn.com/news/1192429/men-must-take-the-lead-in-standing-up-against-sexual-harassment-says-hamza-ali-abbasi
+[2024-05-12T15:56:21.939+0000] {logging_mixin.py:120} INFO - Title: We asked moms what they want for Mother’s Day — no it isn’t kurtas and candles
+Description: A pinch of love, a dash of appreciation and a cup FULL of peace is the recipe for the perfect Mother's Day present!
+Link: https://images.dawn.com/news/1192428/we-asked-moms-what-they-really-want-for-mothers-day-and-no-it-isnt-a-kurta-or-a-candle
+[2024-05-12T15:56:21.940+0000] {logging_mixin.py:120} INFO - Title: Going loco for local: Jugnu’s Chief Saab candle is the ultimate Karachi kid nostalgia
+Description: It may not smell like Chief Saab — or so I think — but it smells nice and that's what matters.
+Link: https://images.dawn.com/news/1192427/going-loco-for-local-jugnus-chief-saab-candle-is-the-ultimate-karachi-kid-nostalgia
+[2024-05-12T15:56:21.941+0000] {logging_mixin.py:120} INFO - Title: Fistula and child marriages: The two epidemics plaguing women in Gilgit-Baltistan
+Description: No description available
+Link: https://www.dawn.com/news/1823323/fistula-and-child-marriages-the-two-epidemics-plaguing-women-in-gilgit-baltistan
+[2024-05-12T15:56:21.942+0000] {logging_mixin.py:120} INFO - Title: 2024 Elections: What’s at stake for India’s minorities?
+Description: Could a third term under Narendra Modi see the formalising of second-class status for minorities and the destruction of the country’s ancient composite culture?
+Link: https://www.dawn.com/news/1828987/2024-elections-whats-at-stake-for-indias-minorities
+[2024-05-12T15:56:21.944+0000] {logging_mixin.py:120} INFO - Title: From screens to streets: How Gen Z is disrupting the status quo and redefining activism
+Description: It's safe to say that the kids are doing just fine. It is the adults running the world that are the problem.
+Link: https://www.dawn.com/news/1829562/from-screens-to-streets-how-gen-z-is-disrupting-the-status-quo-and-redefining-activism
+[2024-05-12T15:56:21.946+0000] {logging_mixin.py:120} INFO - Title: Art group employs brainwaves, AI to recreate landscapes
+Description: No description available
+Link: https://www.dawn.com/news/1833005/art-group-employs-brainwaves-ai-to-recreate-landscapes
+[2024-05-12T15:56:21.950+0000] {logging_mixin.py:120} INFO - Title: Pakistan’s iCube-Qamar beams back first images from moon’s orbit
+Description: The country's inaugural lunar satellite is part of China’s Chang’e-6 mission.
+Link: https://www.dawn.com/news/1832658/pakistans-icube-qamar-beams-back-first-images-from-moons-orbit
+[2024-05-12T15:56:21.951+0000] {logging_mixin.py:120} INFO - Title: People with two copies of a risk gene have genetic form of Alzheimer’s, say scientists
+Description: Study set to redefine such carriers as having a "new genetic form" of the mind-wasting disease.
+Link: https://www.dawn.com/news/1831980/people-with-two-copies-of-a-risk-gene-have-genetic-form-of-alzheimers-say-scientists
+[2024-05-12T15:56:21.953+0000] {logging_mixin.py:120} INFO - Title: FIFA’S FOUL ON PAKISTAN FOOTBALL
+Description: No description available
+Link: https://www.dawn.com/news/1833021/fifas-foul-on-pakistan-football
+[2024-05-12T15:56:21.954+0000] {logging_mixin.py:120} INFO - Title: ESSAY: WE’RE READY FOR YOUR CLOSE-UP NOW
+Description: Diary entries from a former actor reflect on how the desire to conform to the norms of the entertainment industry allowed her to
+Link: https://www.dawn.com/news/1833020/essay-were-ready-for-your-close-up-now
+[2024-05-12T15:56:21.955+0000] {logging_mixin.py:120} INFO - Title: FOOTBALL: GIRLS KICKING MOUNTAINS
+Description: Zahra Afzal runs the Women’s Football Academy in Hazara Town, Quetta. What made her get into such an apparently thankless job?
+Link: https://www.dawn.com/news/1833019/football-girls-kicking-mountains
+[2024-05-12T15:56:21.956+0000] {logging_mixin.py:120} INFO - Title: STYLE; ALL ABOUT MY MOTHER
+Description: No description available
+Link: https://www.dawn.com/news/1832575/style-all-about-my-mother
+[2024-05-12T15:56:21.957+0000] {logging_mixin.py:120} INFO - Title: SOUNDSCAPE: AND NOW, AI MUSIC
+Description: AI can now generate entire songs on demand. What does this mean for music as we know it?
+Link: https://www.dawn.com/news/1832572/soundscape-and-now-ai-music
+[2024-05-12T15:56:21.963+0000] {logging_mixin.py:120} INFO - Title: THE GRAPEVINE
+Description: Indian playback singer Arijit Singh recently did a concert in Dubai. The venue was bursting at the seams
+Link: https://www.dawn.com/news/1832574/the-grapevine
+[2024-05-12T15:56:21.965+0000] {logging_mixin.py:120} INFO - Title: Packaging film sector on the rise
+Description: No description available
+Link: https://www.dawn.com/news/1831798/packaging-film-sector-on-the-rise
+[2024-05-12T15:56:21.966+0000] {logging_mixin.py:120} INFO - Title: Tax reforms — easier than expected
+Description: No description available
+Link: https://www.dawn.com/news/1831797/tax-reforms-easier-than-expected
+[2024-05-12T15:56:21.969+0000] {logging_mixin.py:120} INFO - Title: Wheat’s tricky procurement
+Description: No description available
+Link: https://www.dawn.com/news/1831796/wheats-tricky-procurement
+[2024-05-12T15:56:21.973+0000] {logging_mixin.py:120} INFO - Title: Echoes of love
+Description: No description available
+Link: https://www.dawn.com/news/1832758/echoes-of-love
+[2024-05-12T15:56:21.974+0000] {logging_mixin.py:120} INFO - Title: Mailbox
+Description: No description available
+Link: https://www.dawn.com/news/1832757/mailbox
+[2024-05-12T15:56:21.982+0000] {logging_mixin.py:120} INFO - Title: Mother’s Day: A letter to my mum
+Description: No description available
+Link: https://www.dawn.com/news/1832756/mothers-day-a-letter-to-my-mum
+[2024-05-12T15:56:21.983+0000] {logging_mixin.py:120} INFO - Title: Challenges working mothers face in the corporate sector
+Description: No description available
+Link: https://aurora.dawn.com/news/1145113
+[2024-05-12T15:56:21.985+0000] {logging_mixin.py:120} INFO - Title: Samiya Mumtaz: “To act commercially felt like I was selling my soul to earn, but I put myself out there.”
+Description: No description available
+Link: https://aurora.dawn.com/news/1145109/the-agrarian-thespian
+[2024-05-12T15:56:21.987+0000] {logging_mixin.py:120} INFO - Title: How digitisation can affect agri-financing
+Description: No description available
+Link: https://aurora.dawn.com/news/1145073/incentivising-agri-financing
+[2024-05-12T15:56:21.988+0000] {logging_mixin.py:120} INFO - Title: State Grid Anhui Electric Power Research Institute uses digital tools to prevent floods
+Description: No description available
+Link: https://www.chinadaily.com.cn/a/202405/12/WS66400d88a31082fc043c69eb.html
+[2024-05-12T15:56:21.989+0000] {logging_mixin.py:120} INFO - Title: 2024 Zambia-China Culture and Tourism Year kicks off in Beijing
+Description: No description available
+Link: https://www.chinadaily.com.cn/a/202405/11/WS663f2b3ba31082fc043c6995.html
+[2024-05-12T15:56:21.990+0000] {logging_mixin.py:120} INFO - Title: Onus on US to stop Gaza conflict and grant Palestine full UN membership
+Description: No description available
+Link: https://www.chinadaily.com.cn/a/202405/11/WS663f1a07a31082fc043c696d.html
+[2024-05-12T15:56:21.991+0000] {logging_mixin.py:120} INFO - Title: State Grid Anhui Electric Power Research Institute uses digital tools to prevent floods
+Description: No description available
+Link: https://www.chinadaily.com.cn/a/202405/12/WS66400d88a31082fc043c69eb.html
+[2024-05-12T15:56:21.999+0000] {logging_mixin.py:120} INFO - Title: 2024 Zambia-China Culture and Tourism Year kicks off in Beijing
+Description: No description available
+Link: https://www.chinadaily.com.cn/a/202405/11/WS663f2b3ba31082fc043c6995.html
+[2024-05-12T15:56:22.000+0000] {logging_mixin.py:120} INFO - Title: Onus on US to stop Gaza conflict and grant Palestine full UN membership
+Description: No description available
+Link: https://www.chinadaily.com.cn/a/202405/11/WS663f1a07a31082fc043c696d.html
+[2024-05-12T15:56:22.001+0000] {python.py:177} INFO - Done. Returned value was: None
+[2024-05-12T15:56:22.057+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=data_etl_pipeline, task_id=transform_data, execution_date=20240512T155531, start_date=20240512T155620, end_date=20240512T155622
+[2024-05-12T15:56:22.168+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2024-05-12T15:56:22.259+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
